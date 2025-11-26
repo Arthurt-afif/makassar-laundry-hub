@@ -41,7 +41,7 @@ const Index = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const waMessage = `Halo, saya ${formData.name}. Saya tertarik dengan layanan ${formData.service}. ${formData.message}`;
-    const waLink = `https://wa.me/628875389674?text=${encodeURIComponent(waMessage)}`;
+    const waLink = `https://wa.me/6289526143752?text=${encodeURIComponent(waMessage)}`;
     window.open(waLink, "_blank");
     toast({
       title: "Mengalihkan ke WhatsApp",
@@ -60,7 +60,7 @@ const Index = () => {
           "image": "https://lovable.app/og-image.jpg",
           "@id": "https://lovable.app",
           "url": "https://lovable.app",
-          "telephone": "+628875389674",
+          "telephone": "+6289526143752",
           "priceRange": "Rp 8.000 - Rp 40.000",
           "address": {
             "@type": "PostalAddress",
@@ -90,7 +90,7 @@ const Index = () => {
             "closes": "20:00"
           },
           "sameAs": [
-            "https://wa.me/628875389674"
+            "https://wa.me/6289526143752"
           ],
           "areaServed": ["Makassar", "Sulawesi Selatan", "Sulawesi"],
           "hasOfferCatalog": {
@@ -141,7 +141,7 @@ const Index = () => {
             <Button 
               size="lg" 
               className="text-lg px-8 py-6 shadow-xl bg-[#25D366] hover:bg-[#128C7E] border-0 hover:scale-105 transition-all duration-300"
-              onClick={() => window.open("https://wa.me/628875389674", "_blank")}
+              onClick={() => window.open("https://wa.me/6289526143752", "_blank")}
             >
               <MessageCircle className="mr-2" />
               Chat WhatsApp Bisnis
@@ -538,7 +538,7 @@ const Index = () => {
                 <div className="flex items-center gap-2">
                   <MessageCircle className="w-5 h-5" />
                   <a 
-                    href="https://wa.me/628875389674" 
+                    href="https://wa.me/6289526143752" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="hover:text-white transition-colors"
