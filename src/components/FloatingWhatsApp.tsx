@@ -3,8 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export const FloatingWhatsApp = () => {
   const handleWhatsAppClick = () => {
-    // User akan mengganti nomor ini nanti
-    window.open("https://wa.me/6281234567890", "_blank");
+    window.open("https://wa.me/628875389674", "_blank");
   };
 
   return (
